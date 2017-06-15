@@ -1,0 +1,13 @@
+## Pulling vmware/powerclicore Docker Image
+
+$docker pull vmware/powerclicore
+
+
+
+
+
+## Method to ignore the certificates
+
+Set-PowerCLIConfiguration -InvalidCertificateAction ignore -confirm:$false
+1
+Set-PowerCLIConfiguration -InvalidCertificateAction ignore -confirm:$false
